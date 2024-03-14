@@ -1,4 +1,7 @@
-#include "library.h"
+#ifndef user_h
+#define user_h
+
+#include "error.h";
 
 class User
 {
@@ -9,7 +12,6 @@ private:
     string* password;
     string* email;
     string* phone;
-
 
 public:
 
@@ -22,11 +24,14 @@ public:
     void setLogin(string* login);
     void setPassword(string* password);
     void setEmail(string* email);
+    /*
     void setPhone(string* phone);
 
     string* getLogin();
     string* getPassword();
     string* getEmail();
     string* getPhone();
-
+    */
 };
+
+#endif
