@@ -5,10 +5,27 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="libraty">
+      <UniqueIdentifier>{5abcb297-f6d7-4086-a956-30358ceb65b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{073ee959-33b0-4904-8494-86a0be6f4be0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library.h">
+      <Filter>libraty</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>user</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
