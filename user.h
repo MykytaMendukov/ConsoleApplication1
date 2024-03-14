@@ -1,7 +1,7 @@
 #ifndef user_h
 #define user_h
 
-#include "error.h";
+#include "validation.h";
 
 class User
 {

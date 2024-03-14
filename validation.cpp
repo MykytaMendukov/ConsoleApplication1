@@ -14,7 +14,7 @@ string* Validation::validateLogin(string* login)
             cout << AppError::text_for_login_empty << endl;
         }
         else {
-            login = login; //
+            return login;
         }
     }
 }
